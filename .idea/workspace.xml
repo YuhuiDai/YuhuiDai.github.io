@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2e4540e-c649-46b3-a563-3e4b7f3f2d85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/photo.html" afterPath="$PROJECT_DIR$/views/photo.html" />
-    </list>
+    <list default="true" id="a2e4540e-c649-46b3-a563-3e4b7f3f2d85" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +25,8 @@
       <file leaf-file-name="photo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/photo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="849">
-              <caret line="119" column="13" lean-forward="false" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+            <state relative-caret-position="652">
+              <caret line="185" column="16" lean-forward="true" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -707,12 +705,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500832955386</updated>
-      <workItem from="1500832961043" duration="4653000" />
+      <workItem from="1500832961043" duration="4767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4653000" />
+    <option name="totallyTimeSpent" value="4767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="6" />
@@ -841,8 +839,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/photo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="119" column="13" lean-forward="false" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+        <state relative-caret-position="652">
+          <caret line="185" column="16" lean-forward="true" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="16" />
           <folding />
         </state>
       </provider>
