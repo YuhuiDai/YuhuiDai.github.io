@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2e4540e-c649-46b3-a563-3e4b7f3f2d85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/corporateTaxRate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/synner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolioDescriptionPage.html" afterPath="$PROJECT_DIR$/views/portfolioDescriptionPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolioPage.html" afterPath="$PROJECT_DIR$/views/portfolioPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/photo.html" afterPath="$PROJECT_DIR$/views/photo.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +14,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="corporateTaxRate.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="corporateTaxRate.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/corporateTaxRate.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="104" column="20" lean-forward="false" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/photo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="849">
+              <caret line="119" column="13" lean-forward="false" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -122,6 +128,7 @@
         <option value="$PROJECT_DIR$/views/portfolioPage.html" />
         <option value="$PROJECT_DIR$/views/synner.html" />
         <option value="$PROJECT_DIR$/views/corporateTaxRate.html" />
+        <option value="$PROJECT_DIR$/views/photo.html" />
       </list>
     </option>
   </component>
@@ -700,12 +707,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500832955386</updated>
-      <workItem from="1500832961043" duration="4408000" />
+      <workItem from="1500832961043" duration="4653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4408000" />
+    <option name="totallyTimeSpent" value="4653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="6" />
@@ -828,6 +835,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="104" column="20" lean-forward="false" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="119" column="13" lean-forward="false" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
           <folding />
         </state>
       </provider>
