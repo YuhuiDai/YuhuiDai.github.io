@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2e4540e-c649-46b3-a563-3e4b7f3f2d85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/portfolioDeck/dream.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/portfolioDeck/idealist.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/corporateTaxRate.html" afterPath="$PROJECT_DIR$/views/portfolioDeck/corporateTaxRate.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/synner.html" afterPath="$PROJECT_DIR$/views/portfolioDeck/synner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio pics/synner/layered_gamma_bar.png" afterPath="$PROJECT_DIR$/portfolio pics/synner/layered_gamma_bar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio pics/synner/layered_gamma_smooth.png" afterPath="$PROJECT_DIR$/portfolio pics/synner/layered_gamma_smooth.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio pics/synner/layered_gaussian_smooth.png" afterPath="$PROJECT_DIR$/portfolio pics/synner/layered_gaussian_smooth.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio pics/synner/layered_gaussian_smooth_noHover.png" afterPath="$PROJECT_DIR$/portfolio pics/synner/layered_gaussian_smooth_noHover.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio pics/synner/lines_exponential_bar.png" afterPath="$PROJECT_DIR$/portfolio pics/synner/lines_exponential_bar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio pics/synner/lines_exponential_smooth.png" afterPath="$PROJECT_DIR$/portfolio pics/synner/lines_exponential_smooth.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/portfolio pics/synner/lines_gaussian_smooth.png" afterPath="$PROJECT_DIR$/portfolio pics/synner/lines_gaussian_smooth.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/portfolioTemplate.css" afterPath="$PROJECT_DIR$/public/css/portfolioTemplate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/photo.html" afterPath="$PROJECT_DIR$/views/photo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolioDescriptionPage.html" afterPath="$PROJECT_DIR$/views/portfolioDescriptionPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolioPage.html" afterPath="$PROJECT_DIR$/views/portfolioPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolioDeck/dream.html" afterPath="$PROJECT_DIR$/views/portfolioDeck/dream.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dream.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dream.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/portfolioDeck/dream.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="96" column="26" lean-forward="true" selection-start-line="91" selection-start-column="20" selection-end-line="96" selection-end-column="26" />
+            <state relative-caret-position="379">
+              <caret line="117" column="25" lean-forward="false" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#2;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -58,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="idealist.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="idealist.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/portfolioDeck/idealist.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="331">
@@ -152,8 +137,8 @@
         <option value="$PROJECT_DIR$/views/portfolioDeck/corporateTaxRate.html" />
         <option value="$PROJECT_DIR$/views/portfolioDeck/synner.html" />
         <option value="$PROJECT_DIR$/views/portfolioPage.html" />
-        <option value="$PROJECT_DIR$/views/portfolioDeck/dream.html" />
         <option value="$PROJECT_DIR$/views/portfolioDeck/idealist.html" />
+        <option value="$PROJECT_DIR$/views/portfolioDeck/dream.html" />
       </list>
     </option>
   </component>
@@ -747,12 +732,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500832955386</updated>
-      <workItem from="1500832961043" duration="10558000" />
+      <workItem from="1500832961043" duration="11493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10558000" />
+    <option name="totallyTimeSpent" value="11493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="6" />
@@ -898,23 +883,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/portfolioDeck/dream.html">
+    <entry file="file://$PROJECT_DIR$/views/portfolioDeck/idealist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="96" column="26" lean-forward="true" selection-start-line="91" selection-start-column="20" selection-end-line="96" selection-end-column="26" />
+        <state relative-caret-position="331">
+          <caret line="145" column="46" lean-forward="false" selection-start-line="145" selection-start-column="46" selection-end-line="145" selection-end-column="46" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#2;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#3;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/portfolioDeck/idealist.html">
+    <entry file="file://$PROJECT_DIR$/views/portfolioDeck/dream.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="145" column="46" lean-forward="false" selection-start-line="145" selection-start-column="46" selection-end-line="145" selection-end-column="46" />
+        <state relative-caret-position="379">
+          <caret line="117" column="25" lean-forward="false" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
           <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#2;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#3;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
