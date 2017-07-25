@@ -40,18 +40,27 @@
   <script>
   var code = document.getElementsByClassName('code');
   var dataVisualization = document.getElementsByClassName('dataVisualization');
+  var productDesign = document.getElementsByClassName('productDesign');
   function showAll(){
     show(code);
     show(dataVisualization);
-
+    show(productDesign)
   }
   function showCodeOnly(){
     show(code);
     hide(dataVisualization);
+    hide(productDesign);
   }
   function showDataVisualizationOnly(){
     show(dataVisualization);
     hide(code);
+    hide(productDesign);
+  }
+  function showProductDesignOnly() {
+      show(productDesign)
+      hide(code);
+      hide(dataVisualization);
+
   }
   function show(elements){
     for(var i = 0; i < elements.length; i ++) {
@@ -69,15 +78,18 @@
 
     <div class="row portfolio">
       <div class="col-md-12">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" id="allTab" data-toggle="tab" onClick="showAll()" href="#">All</a>
+            <a class="nav-link active" data-toggle="tab" onClick="showAll()" href="#">All</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="codeTab" data-toggle="tab" onClick="showCodeOnly()" href="#">Coding</a>
+            <a class="nav-link"  data-toggle="tab" onClick="showCodeOnly()" href="#">Coding</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="dataVisualizationTab" data-toggle="tab" onClick="showDataVisualizationOnly()" href="#">Data Visualization</a>
+            <a class="nav-link" data-toggle="tab" onClick="showDataVisualizationOnly()" href="#">Data Visualization</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" onClick="showProductDesignOnly()" href="#">Product Design</a>
           </li>
           <!-- <li class="nav-item">
           <a class="nav-link disabled" href="#">Disabled</a>
@@ -91,20 +103,39 @@
   <div class="col-md-12 cards">
     <!-- <ul> -->
     <div class="col-md-4 col-sm-6 portfolioDeck code">
-      <a href="portfolioDescriptionPage.html">
+      <a href="portfolioDeck/dream.html">
         <div class="card">
-          <img class="img-fluid" src="http://placehold.it/600x300">
+          <img style="height: 200px; padding: 10px" src="../portfolio%20pics/dreamJournal/jounalPage.png">
           <div class="card-block">
-            Coding Project
+            Dream Journal
           </div>
         </div>
       </a>
     </div>
-
-    <div class="portfolioDeck col-md-4 col-sm-6 dataVisualization">
-      <a href="corporateTaxRate.html">
+    <div class="col-md-4 col-sm-6 portfolioDeck productDesign">
+      <a href="portfolioDeck/idealist.html">
         <div class="card">
-          <img class="img-fluid" src="../portfolio%20pics/corporateTaxRate/successful.png">
+          <img style="height: 200px; padding: 10px" src="../portfolio%20pics/idealist/1.png">
+          <div class="card-block">
+            Act Button
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="portfolioDeck col-md-4 col-sm-6 dataVisualization">
+      <a href="portfolioDeck/synner.html">
+        <div class="card">
+          <img style="height: 200px; padding: 10px" src="../portfolio%20pics/synner/layered_gaussian_smooth_noHover.png">
+          <div class="card-block">
+            Uncertainty in Data
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="portfolioDeck col-md-4 col-sm-6 dataVisualization">
+      <a href="portfolioDeck/corporateTaxRate.html">
+        <div class="card">
+          <img style="height: 200px; padding: 10px" src="../portfolio%20pics/corporateTaxRate/cover.png">
           <div class="card-block">
             U.S. Industry Tax Rate
           </div>
@@ -112,16 +143,7 @@
       </a>
     </div>
 
-    <div class="portfolioDeck col-md-4 col-sm-6 dataVisualization">
-      <a href="synner.html">
-        <div class="card">
-          <img class="img-fluid" src="../portfolio%20pics/synner/layered_gaussian_smooth_noHover.png">
-          <div class="card-block">
-            Uncertainty in Data
-          </div>
-        </div>
-      </a>
-    </div>
+
 
     <!-- </ul> -->
   </div>

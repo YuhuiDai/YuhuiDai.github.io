@@ -211,7 +211,9 @@ p.companyAndDate span{
   position: relative;
 }
 
-
+.card-block{
+    text-align: center;
+}
 .portfolioDeck .card:hover{
   opacity: 0.5;
 }
