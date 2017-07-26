@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Yuhui Dai">
 
-    <title>Dream Journal</title>
+    <title>Dream Box</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="../../resources/d.png">
     <link href="../../public/css/bootstrap.css" rel="stylesheet">
@@ -43,15 +43,19 @@
         <div class="portfolioDescriptionHeading">
             <div class="row" style="text-align:left">
                 <div class="col-lg-4 col-sm-12">
-                    <h1> Wadi Drone </h1>
+                    <h1> Dream Box </h1>
                     <hr>
                     <p class="companyAndDate">
-                        Company
-                        <span> Date </span>
+                        Mashup
+                        <span> Fall 2015 </span>
                     </p>
                     <hr style="visibility:hidden">
                     <p>
-                        Wadi Drone is a fixed wing data MULE (Mobile Ubiquitous LAN Extension) that automates the collection of camera trap photographs, a critical conservation data. Designed in collaboration with Wadi Wurayah National Park the drone
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        In Dream Box, users can build their own dream boxes by logging in or
+                        create a name. They can read others' dream journals from the home page and comment on them.
+                        After users create their dream logs, the sentiment analysis api can tell them whether
+                        it is a good dream or bad dream. The application uses node.js and IBM Waston Sentiment API.
                     </p>
                 </div>
                 <div class="col-lg-8 col-sm-12" style="text-align:center">
@@ -68,8 +72,17 @@
                     <div class="col-md-12">
                         <hr style="visibility:hidden">
                         <div class="col-md-12 text">
-                            <h3> Problem </h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            <h3> Why I created this </h3>
+                            <p>
+                                This simple website is my final project of a web development class. The database and web domain are
+                                powered by heroku.
+                            </p>
+                            <p>
+                                I always have vivid and sometimes amazingly interesting dreams. I want to keep a dream
+                                journal to record what I dreamt so that I would not forget. Sometimes the dream is complex,
+                                with a lot of postive and negative emotions. I keep wondering whether it is a good sign or a bad sign.
+                                In my application, I used a natural language processing api to analyze the sentiment of the text.
+                                With the algorithm offered by the api, I can detect the overall sentiment of the dream content.
                             </p>
                         </div>
                     </div>
@@ -79,9 +92,13 @@
                     <div class="col-md-12">
                         <hr style="visibility:hidden">
                         <div class="col-md-12 text">
-                            <h3> Solution </h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
+                            <h3> How does it work </h3>
+                            <p>1. Home page displays all the dream journals and their related comments</p>
+                            <p>2. User can click the comment button to comment on the dream and save it</p>
+                            <p>3. Login page allows user to either create a new page or entering their existing page by type in their user name</p>
+                            <p>4. On the individual user page, one can write the dream content in text box</p>
+                            <p>5. The api will tell the user immediately whether it is a good dream or a bad dream</p>
+                            <p>6. The page automatically adds user's dream to his/her previous dream journals if exist</p>
                         </div>
                     </div>
                     <div class="col-sm-12">
@@ -92,7 +109,7 @@
                     <div class="col-md-12">
                         <hr style="visibility:hidden">
                         <div class="col-md-12 text">
-                            <h4><a href="dreamboxyuhuidai.herokuapp.com">Dream Box Website powered by heroku</a></h4>
+                            <h4><a href="http://dreamboxyuhuidai.herokuapp.com">Dream Box Website powered by heroku</a></h4>
                         </div>
                     </div>
                 </div>
