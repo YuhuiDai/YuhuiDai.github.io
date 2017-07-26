@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2e4540e-c649-46b3-a563-3e4b7f3f2d85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolioDeck/corporateTaxRate.html" afterPath="$PROJECT_DIR$/views/portfolioDeck/corporateTaxRate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolioDeck/doodle.html" afterPath="$PROJECT_DIR$/views/portfolioDeck/doodle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolioDeck/dream.html" afterPath="$PROJECT_DIR$/views/portfolioDeck/dream.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolioDeck/idealist.html" afterPath="$PROJECT_DIR$/views/portfolioDeck/idealist.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +31,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dream.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dream.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/portfolioDeck/dream.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="idealist.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/portfolioDeck/idealist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="187" column="51" lean-forward="false" selection-start-line="187" selection-start-column="51" selection-end-line="187" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#mark#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landingPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/landingPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="100" column="100" lean-forward="true" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -136,7 +158,6 @@
         <option value="$PROJECT_DIR$/views/photo.html" />
         <option value="$PROJECT_DIR$/views/portfolioDescriptionPage.html" />
         <option value="$PROJECT_DIR$/public/css/portfolioTemplate.css" />
-        <option value="$PROJECT_DIR$/views/portfolioDeck/idealist.html" />
         <option value="$PROJECT_DIR$/views/portfolioDeck/synner.html" />
         <option value="$PROJECT_DIR$/views/aboutMePage.html" />
         <option value="$PROJECT_DIR$/views/portfolioPage.html" />
@@ -144,6 +165,7 @@
         <option value="$PROJECT_DIR$/views/portfolioDeck/doodle.html" />
         <option value="$PROJECT_DIR$/views/portfolioDeck/corporateTaxRate.html" />
         <option value="$PROJECT_DIR$/views/portfolioDeck/dream.html" />
+        <option value="$PROJECT_DIR$/views/portfolioDeck/idealist.html" />
       </list>
     </option>
   </component>
@@ -265,6 +287,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dreamJournal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YuhuiDai.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YuhuiDai.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio pics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doodle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -716,12 +756,12 @@
       <option name="presentableId" value="Default" />
       <updated>1500832955386</updated>
       <workItem from="1500832961043" duration="11493000" />
-      <workItem from="1501006564661" duration="10340000" />
+      <workItem from="1501006564661" duration="12481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21833000" />
+    <option name="totallyTimeSpent" value="23974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="6" />
@@ -850,6 +890,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -875,13 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/landingPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4786">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/sankey-formatted.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -894,17 +928,6 @@
         <state relative-caret-position="3210">
           <caret line="214" column="19" lean-forward="false" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/portfolioDeck/idealist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="145" column="46" lean-forward="false" selection-start-line="145" selection-start-column="46" selection-end-line="145" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#2;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#3;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -955,17 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/aboutMePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="79" column="64" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/portfolioDeck/doodle.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -990,11 +1002,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/aboutMePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="79" column="64" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/landingPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="100" column="100" lean-forward="true" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/portfolioDeck/dream.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/portfolioDeck/idealist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="187" column="51" lean-forward="false" selection-start-line="187" selection-start-column="51" selection-end-line="187" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#mark#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
