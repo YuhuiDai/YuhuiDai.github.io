@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2e4540e-c649-46b3-a563-3e4b7f3f2d85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolioDeck/idealist.html" afterPath="$PROJECT_DIR$/views/portfolioDeck/idealist.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolioDeck/synner.html" afterPath="$PROJECT_DIR$/views/portfolioDeck/synner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/portfolioDeck/tweet.html" afterPath="$PROJECT_DIR$/views/portfolioDeck/tweet.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +34,8 @@
       <file leaf-file-name="aboutMePage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/aboutMePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="92" column="18" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="92" selection-end-column="18" />
+            <state relative-caret-position="145">
+              <caret line="79" column="64" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="64" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -49,7 +47,7 @@
       <file leaf-file-name="portfolioTemplate.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/portfolioTemplate.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3210">
+            <state relative-caret-position="527">
               <caret line="214" column="19" lean-forward="false" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="19" />
               <folding />
             </state>
@@ -59,8 +57,8 @@
       <file leaf-file-name="synner.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/portfolioDeck/synner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+            <state relative-caret-position="341">
+              <caret line="136" column="123" lean-forward="false" selection-start-line="136" selection-start-column="123" selection-end-line="136" selection-end-column="123" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#2;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -648,12 +646,12 @@
       <updated>1500832955386</updated>
       <workItem from="1500832961043" duration="11493000" />
       <workItem from="1501006564661" duration="12579000" />
-      <workItem from="1501073071072" duration="1325000" />
+      <workItem from="1501073071072" duration="3304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25397000" />
+    <option name="totallyTimeSpent" value="27376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="701" extended-state="6" />
@@ -906,14 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/portfolioTemplate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3210">
-          <caret line="214" column="19" lean-forward="false" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/portfolioDescriptionPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2460">
@@ -982,17 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/aboutMePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="92" column="18" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="92" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/portfolioPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1008,10 +987,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/portfolioTemplate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="214" column="19" lean-forward="false" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/aboutMePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="79" column="64" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/portfolioDeck/synner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        <state relative-caret-position="341">
+          <caret line="136" column="123" lean-forward="false" selection-start-line="136" selection-start-column="123" selection-end-line="136" selection-end-column="123" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#1;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#2;n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />

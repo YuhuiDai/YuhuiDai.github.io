@@ -51,7 +51,15 @@
                     </p>
                     <hr style="visibility:hidden">
                     <p>
-                        
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Modern data visualization can give people false impressions of preciseness when the data are
+                        subject to some uncertainty. This summer research project aims to test and compare different
+                        interfaces that represent uncertainty in randomly generated data following user-specified distribution.
+                    </p>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        The research project utilizes html, css and javascript, complemented by Angularjs and d3 library.
+                        It is part of a bigger project at NYU Abu Dhabi Design Lab.
                     </p>
                 </div>
                 <div class="col-lg-7 col-sm-12" style="text-align:center">
@@ -64,6 +72,25 @@
             <div class="body">
 
                 <div class="row">
+                    <div class="col-md-12">
+                        <hr style="visibility:hidden">
+                        <div class="col-md-12 text">
+                            <h3> Why do we need to visualize uncertainty in randomly generated data? </h3>
+                            <p>
+                                For instance, if a hospital revamps its database and wants to test it, the hospital
+                                cannot risk using real data in case something fails and results in security leaks.
+                                The hospital can use randomly generated data with some specifications: age, gender
+                                ratio, etc. The hospital can input requirements/specifications into a data generator
+                                and use the randomly generated data to test new system. However, the problem is no
+                                algorithm can produce exact result. If the hospital specifies a mean age of 50 in 1000
+                                generated data points, the generated results may yeild 50.0005 rather than exactly 50.
+                                The current data generator service online does not incorporate the uncertainty
+                                visualization in their websites, and could give users the false impression that
+                                everything is exact. Therefore, this research is trying to systematically find a way
+                                to visualize these uncertainties in randomly generated data.
+                            </p>
+                        </div>
+                    </div>
                     <div class="col-sm-12">
                         <img class="img-fluid" src="../../portfolio%20pics/synner/layered_gamma_smooth.png">
                     </div>
@@ -73,8 +100,24 @@
                     <div class="col-md-12">
                         <hr style="visibility:hidden">
                         <div class="col-md-12 text">
-                            <h3> Problem </h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            <h3> Design </h3>
+                            <p>
+                                We started with 4 designs but narrowed down to 2 designs after the pilot testing. The codes of
+                                the designs are generic and applicable to different kinds of distributions. I am showing Gaussian,
+                                Exponential and Gamma distributions in my illustrations.
+                            </p>
+                            <h5> Layered Graph</h5>
+                            <p>
+                                The above two images are the layered graph design, and the layered areas represent the
+                                deviations from the theoretical distribution. The parameter representation echoes the
+                                style of the distribution distribution, with theoretical curve represented by the solid line.
+                            </p>
+                            <h5> Sample Lines</h5>
+                            <p>
+                                The below two images are the sample lines design, and the thinner lines represent every
+                                randomly generated experiment (aka: samples). The parameter representation echoes the
+                                style of the distribution distribution, with theoretical curve represented by
+                                the thicker line and samples represented by thinner lines.
                             </p>
                         </div>
                     </div>
@@ -87,8 +130,11 @@
                     <div class="col-md-12">
                         <hr style="visibility:hidden">
                         <div class="col-md-12 text">
-                            <h3> Solution </h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            <h3> Interaction with Users </h3>
+                            <p>
+                                Users can inspect each sample that follows the specified distribution by hovering their mouse
+                                over the thin lines (in Sample Lines design) or hovering over the area (in Layered Graph design)
+                                to look at the exact shape of the histogram. The two images below illustrates how it works.
                             </p>
                         </div>
                     </div>
