@@ -46,7 +46,7 @@
                     <h1> My Brain </h1>
                     <hr>
                     <p class="companyAndDate">
-                        Product Challenge with New York Times
+                        New York Times
                         <span> Fall 2017 </span>
                     </p>
                     <hr style="visibility:hidden">
@@ -59,15 +59,16 @@
                     <p>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         This application allows subscribers to visualize what content they have read in the past via 'MyBrain', which is
-                        dynamically partitioned by topics. It allows users to follow influencers or friends, and view their 'brains' or quickly
-                        become an expert in certain field by viewing New York Times' 'brain buddles' which curate trending content on specific
-                        topics. Lastly, it also catalogs content read and recommends new content based on user's own browsing history and his/her
+                        dynamically partitioned by topics. It allows users to follow influencers or friends, and view their 'brains' or New York Times'
+                        'brain buddles' which curate trending content on specific topics. Lastly, it also catalogs content read and recommends new content based on user's own browsing history and his/her
                         friends' and influencers' browsing history.
 
                     </p>
                     <p>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Front-end is built in React Native, back-end with Node.js
-                        and MongoDB interfacing with New York Times API
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Front-end is built in <span style="font-weight: bold">React Native</span>,
+                        back-end with <span style="font-weight: bold">Node.js</span> and <span style="font-weight: bold">MongoDB</span>
+                        interfacing with New York Times <span style="font-weight: bold">API</span>. Data visualization and animation
+                        with <span style="font-weight: bold">d3</span> and <span style="font-weight: bold">React Native Art</span>.
                     </p>
                 </div>
                 <div class="col-lg-4 col-sm-12" style="text-align:center">
@@ -82,12 +83,14 @@
                     <div class="col-md-12">
                         <hr style="visibility:hidden">
                         <div class="col-md-12 text">
-                            <h3> What features are different from the mobile game? </h3>
-                            <p>1. Platforms are constantly moving</p>
-                            <p>2. Players use up arrow to jump and left/right arrow to direct the jump</p>
-                            <p>3. Middle Eastern Elements:
-                                flying arab carpets as platforms, kandura dressed Doodle,
-                                and Burj Khalifa background</p>
+                            <h3> Background </h3>
+                            <p>The average American reads <span style="font-weight: bold">19</span>  minutes per day.</p>
+                            <p>That’s enough time for about <span style="font-weight: bold">5</span> articles.</p>
+                            <p>The New York Times publishes <span style="font-weight: bold">230</span> pieces of content
+                                every day (or <span style="font-weight: bold">46x</span> the average content consumption).</p>
+                            <p style="font-weight: bold">How does The Times ensure users don’t miss out on the content they actually care about?</p>
+                            <p>Our solution: <span style="font-weight: bold">MyBrain</span></p>
+                            <hr></hr>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-12">
@@ -97,19 +100,23 @@
                         <img class="img-fluid" src="../../portfolio%20pics/myBrain/home.jpg">
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <img class="img-fluid" src="../../portfolio%20pics/myBrain/otherMedia.jpg">
+                        <img class="img-fluid" src="../../portfolio%20pics/myBrain/snapshot.jpg">
                     </div>
                     <div class="col-md-3 col-sm-12">
-                        <img class="img-fluid" src="../../portfolio%20pics/myBrain/snapshot.jpg">
+                        <img class="img-fluid" src="../../portfolio%20pics/myBrain/otherMedia.jpg">
                     </div>
                     <div class="col-md-12">
                         <hr style="visibility:hidden">
                         <div class="col-md-12 text">
-                            <h3> Game Flow </h3>
-                            <p>1. Users input user name</p>
-                            <p>2. User begins jumping, try to get the coin and avoid bombs</p>
-                            <p>3. The higher a user reaches, the more bombs and faster platforms he/she encounters</p>
-                            <p>4. When the game is over, the top three score in the database will be displayed</p>
+                            <h3> Product Flow </h3>
+                            <p>1. <span style="font-weight: bold">Login</span>: via facebook or email</p>
+                            <p>2. <span style="font-weight: bold">Home</span>: View your brain and read recommended content</p>
+                            <p>3. <span style="font-weight: bold">Snapshot of News Content</span>: View snippets and have the options to view entire article</p>
+                            <p>4. <span style="font-weight: bold">Recommendations</span>:</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-weight: bold">My News</span>:direct recommendation based on user's browsing history</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-weight: bold">What you might like</span>:trending news, breaking news and content that user's friends and
+                                influencers read</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-weight: bold">Plug In</span>:other NYT media content such as video and podcast</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-12">
@@ -123,6 +130,20 @@
                     </div>
                     <div class="col-md-3 col-sm-12">
                         <img class="img-fluid" src="../../portfolio%20pics/myBrain/brainBuddle.jpg">
+                    </div>
+                    <div class="col-md-12">
+                        <hr style="visibility:hidden">
+                        <div class="col-md-12 text">
+                            <p>1. <span style="font-weight: bold">History</span>: Enter via clicking on the Brain and view articles read in the past</p>
+                            <p>2. <span style="font-weight: bold">Feed</span>: View your friends' and influencers' brain</p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if one follows John Oliver, one can know what
+                                John Oliver reads on New York Times</p>
+                            <p>3. <span style="font-weight: bold">Explore</span>: </p>
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if one wants to quickly become an expert in certain field, or
+                            have an overview on certain topics, these curated buddles can enrich your knowledge in certain areas in a
+                                short period of time. For instance, if you want to keep track of the progress of G20 summit, a bundled brain
+                            may record all news related to G20 summit and the following actions across the world.</p>
+                        </div>
                     </div>
                 </div>
             </div>
