@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Yuhui Dai">
+
+    <title>saladNews</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="../../resources/d.png">
+    <link href="../../public/css/bootstrap.css" rel="stylesheet">
+    <link href="../../public/css/portfolioTemplate.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" class="index">
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <a class="navbar-brand" href="../landingPage.html">
+        <img src="../../resources/yuhui_dai_oceanBlue.png" height ="45px" class="d-inline-block align-top" alt="">
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+
+        <ul class="nav navbar-nav float-md-right">
+            <li ><a class="nav-item nav-link" href="../portfolioPage.html" >PROJECT</a></li>
+            <li><a class="nav-item nav-link" href="../photo.html">PHOTOS</a></li>
+            <li><a class="nav-item nav-link" href="../aboutMePage.html">ABOUT</a></li>
+            <li><a class="nav-item nav-link" href="../contactPage.html">CONTACT</a></li>
+
+        </ul>
+    </div>
+</nav>
+
+<section class="jumbotron text-left" id="post">
+    <div class="container">
+        <div class="portfolioDescriptionHeading">
+            <div class="row" style="text-align:left">
+                <div class="col-lg-5 col-sm-12">
+                    <h1> Salad News </h1>
+                    <hr>
+                    <p class="companyAndDate">
+                        Tech, Media & Democracy
+                        <span> Spring 2018 </span>
+                    </p>
+                    <hr style="visibility:hidden">
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        SaladNews serves various needs of news readers to unwrap their interested topic efficiently.
+                        For example, if a reader is unfamiliar of a topic, he/she may search the topic and filtering
+                        articles to only easy reads (articles with low sophistication score), so he/she could understand
+                        a topic within 5 minutes. If a political analyst or culture researcher is interested in a topic,
+                        he/she may filter the news articles by only selecting ones with high sophistication score to gain
+                        more peer-reviewed data and arguments around the topic.
+                    </p>
+                </div>
+                <div class="col-lg-7 col-sm-12" style="text-align:center">
+                    <img class="img-fluid" src="../../portfolio%20pics/saladNews/salad_home.png">
+                </div>
+            </div>
+            <hr style="visibility:hidden">
+        </div>
+        <div class="row">
+            <div class="body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr style="visibility:hidden">
+                        <div class="col-md-12 text">
+                            <h3>Product Flow </h3>
+                            <p>Upon login, users able to search news using the search bar or selecting a topic on the
+                                navigation bar. Alternatively, users who want to customize their search more,
+                                can specify their requirements in the home page. The example below shows the functionality
+                                to select desired topics and dates</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-sm-12">
+                        <img class="img-fluid" src="../../portfolio%20pics/saladNews/salad_selection.png">
+                    </div>
+
+
+                    <div class="col-md-12">
+                        <hr style="visibility:hidden">
+                        <div class="col-md-12 text">
+                            <p>They can choose a topic and a date range, specify source and reading ease level. When
+                                the button of ‘Build your news salad’ is pressed, the website will take users to the
+                                next page. Then SaladNews system enables user to filter articles with 5 levels of
+                                reading ease score. The higher the score, the heavier the reads. Users are able to
+                                like/unlike an article, of which source, reading ease level, number of likes, snippet,
+                                image and titles are provided. Users are able to filter or change filter of the reading
+                                ease level on the upper right corner. Also user will be able to select the time period
+                                of the selected article.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                        <img class="img-fluid" src="../../portfolio%20pics/saladNews/salad_articles.png">
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                        <img class="img-fluid" src="../../portfolio%20pics/saladNews/salad_reading_ease.png">
+                    </div>
+
+                    <div class="col-md-12">
+                        <hr style="visibility:hidden">
+                        <div class="col-md-12 text">
+                            <h3> Technical Implementation </h3>
+                            <p>Overall, we built two UIs, a homepage, and an article-display page. The website is built
+                                in <span style="font-weight: bold">javascript, CSS, HTML,</span> connecting to the
+                                back-end with <span style="font-weight: bold">python flask </span>. We used Google
+                                NewsAPI to get news from different websites, and <span style="font-weight: bold">
+                                    Flesch–Kincaid </span> readability tests test to generate the sophistication
+                                scores of news articles. The Python application could crawl news articles about the
+                                given topic from different news websites, calculate the readability score, relevant
+                                information of the article (dates/title, etc) and display the score, number of
+                                likes for each article, which could allow users to choose the article they would
+                                like to consume.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <hr style="visibility:hidden">
+                        <div class="col-md-12 text">
+                            <h3> Challenge Addressed </h3>
+                            <p>1. Gather and analyze the quality of news articles across different websites </p>
+                            <p>2. Multi-thread to speed up the API processing</p>
+                            <p>3. Return results based on sorted date order</p>
+                            <p>4. Dynamically render the data on the front end, and have a generic template</p>
+                            <p>5. Create visually appealing graphics, inspired by Pinterest layout</p>
+                            <p>6. Give users options to personalize their search</p>
+                            <p>7. Allow users to like and dislike articles, of which result is recorded in the database</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row relatedWork">
+            <div class="col-md-12 text-center">
+                <hr style="visibility:hidden">
+                <h3> Related Work </h3>
+                <hr style="visibility:hidden">
+            </div>
+            <div class="col-md-4">
+                <a href="synner.html">
+                    <div class="card">
+                        <img style="height: 230px; padding: 10px" src="../../portfolio%20pics/synner/layered_gaussian_smooth_noHover.png">
+                        <div class="card-block">
+                            Uncertainty in Data
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="idealist.html">
+                    <div class="card">
+                        <img style="height: 230px; padding: 10px" src="../../portfolio%20pics/idealist/1.png">
+                        <div class="card-block">
+                            Act Button
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="myBrain.html">
+                    <div class="card">
+                        <img style="height: 230px; width: 240px; padding: 10px; margin: auto" src="../../portfolio%20pics/myBrain/brain.png">
+                        <div class="card-block">
+                            My Brain
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+<footer>
+    <div class="col-md-12 portfolio">
+        <p class="myFooter">© 2018 Yuhui Dai</p>
+        <p class="myRightFooter">
+            <a href="https://www.facebook.com/yuhui.dai.1">
+                <img src="../../resources/facebook.png" width="20px" height="20px" alt="">
+            </a>
+        </p>
+        <p class="myRightFooter">
+            <a href="https://github.com/YuhuiDai">
+                <img src="../../resources/github.png" width="20px" height="20px" alt=" ">
+            </a>
+        </p>
+        <p class="myRightFooter">
+            <a href="https://www.linkedin.com/in/yuhui-dai-78439185/">
+                <img src="../../resources/linkedin.png" width="20px" height="20px" alt=" ">
+            </a>
+        </p>
+
+    </div>
+    <hr style="visibility:hidden">
+    <hr style="visibility:hidden">
+    <hr style="visibility:hidden">
+</footer>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="../../public/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../public/js/resize.js"></script>
+
+</body>
+
+</html>
